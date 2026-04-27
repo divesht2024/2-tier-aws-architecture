@@ -29,7 +29,7 @@ This architecture follows cloud best practices by allowing public access only to
 ---
 
 ## 🔄 Request Flow
-
+```text
 User Browser
    ↓
 Internet
@@ -41,7 +41,7 @@ EC2 Instance (Application Layer)
 Amazon RDS (Database Layer)
    ↓
 Response to User
-
+```
 ---
 
 ## 🔐 Security Architecture
@@ -91,7 +91,7 @@ Store screenshots in the `/screenshots` folder:
 ---
 
 ## 📂 Repository Structure
-
+```text
 2-tier-aws-architecture/
 │── README.md
 │── architecture/
@@ -101,7 +101,7 @@ Store screenshots in the `/screenshots` folder:
 │── docs/
 │   ├── architecture-explanation.md
 │   └── aws-services-used.md
-
+```
 
 ---
 
